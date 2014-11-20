@@ -30,29 +30,29 @@ You will need some libraries:
  ```
 3. Add the class `contentscroll` to the element which have the overflow property.
  ```html
- <style>
- .box {
-     /* auto, hidden or scroll */
-     overflow: auto;
- }
- </style>
+<style>
+.box {
+    /* auto, hidden or scroll */
+    overflow: auto;
+}
+</style>
 
- <div class="box contentscroll">
- <!-- elements inside -->
- </div>
+<div class="box contentscroll">
+<!-- elements inside -->
+</div>
  ```
 4. Add the class `dropdownscroll` to the the element which will launch the event and `dropdown-menu-scoll` to the targeted element (the one which will be displayed).
  ```html
- <div class="btn-group dropdownscroll" dropdown>
-     <button type="button" class="btn dropdown-toggle">
-         Click on me!
-     </button>
-     <ul class="dropdown-menu dropdown-menu-scoll" role="menu">
-         <li>test 1</li>
-         <li>test 2</li>
-         <li>test 3</li>
-         <li class="divider"></li>
-         <li>test 4</li>
-     </ul>
- </div>
+<div class="btn-group dropdownscroll" dropdown>
+    <button type="button" class="btn dropdown-toggle">
+        Click on me!
+    </button>
+    <ul class="dropdown-menu dropdown-menu-scoll" role="menu">
+        <li>test 1</li>
+        <li>test 2</li>
+        <li>test 3</li>
+        <li class="divider"></li>
+        <li>test 4</li>
+    </ul>
+</div>
  ```
