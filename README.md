@@ -29,13 +29,14 @@ You will need some libraries:
  angular.module('myApp', ['angular-scroll-dropdown', 'ui.bootstrap'])
 ```
 3. Add the class `contentscroll` to the element which have the overflow property.
-```css
+```html
+<style>
 .box {
     /* auto, hidden or scroll */
     overflow: auto;
-}```
+}
+</style>
 
-```html
 <div class="box contentscroll">
 <!-- elements inside -->
 </div>
