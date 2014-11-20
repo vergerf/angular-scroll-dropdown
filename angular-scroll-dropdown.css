@@ -1,0 +1,6 @@
+.dropdown-menu-scoll {
+/*	can be canged as needed:
+	position:[absolute|relative|fixed];
+*/
+    position:fixed;
+}
