@@ -41,7 +41,7 @@ You will need some libraries:
 <!-- elements inside -->
 </div>
  ```
-4. Add the class `dropdownscroll` to the the element which will launch the event and `dropdown-menu-scoll` to the targeted element (the one which will be displayed).
+4. Add the class `dropdownscroll` to the the element which will launch the event and `dropdown-menu-scoll` to the   targeted element (the one which will be displayed).
  ```html
 <div class="btn-group dropdownscroll" dropdown>
     <button type="button" class="btn dropdown-toggle">
