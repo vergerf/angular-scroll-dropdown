@@ -24,9 +24,10 @@ You will need some libraries:
 
 1. Include both `angular-scroll-dropdown.js` and `angular-scroll-dropdown.css` in your index file (`index.html` for exemple).
 2. Include the angular-scroll-dropdown as a dependency for your app.
- ```js
+
+  ```javacript
   angular.module('myApp', ['angular-scroll-dropdown', 'ui.bootstrap'])
- ```
+  ```
 3. Add the class `contentscroll` to the element which have the overflow property.
  ```html
 <style>
