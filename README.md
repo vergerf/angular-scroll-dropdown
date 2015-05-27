@@ -6,7 +6,7 @@ Basically, you just need to use some directives from angular-scroll-dropdown to 
 
 ## Demo
 
-Your will find a demo on this page:
+You will find a demo on this page:
 http://jsfiddle.net/ume7n694/11/
 
 ## Usefulness
