@@ -58,7 +58,6 @@
                 restrict: 'C',
                 link: function(scope, elm) {
                     var doc = angular.element($document);
-                    var bod = angular.element(doc[0].body);
 
                     // send message to children if scrolling
                     elm.bind('scroll', function() {
