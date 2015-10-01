@@ -15,10 +15,10 @@
                 restrict: 'C',
                 link: function (scope, elm) {
                     var button = elm.find('.dropdown-toggle');
-                    var dropdown = elm.find('.dropdown-menu-scoll');
 
                     // change dropdown position if click on button
                     button.bind('click', function() {
+                        var dropdown = elm.find('.dropdown-menu-scoll');
                         var dropDownTopInBottom = button.offset().top + button.outerHeight() -  $window.pageYOffset;
                         var dropDownTopInTop = button.offset().top -  $window.pageYOffset;
 
